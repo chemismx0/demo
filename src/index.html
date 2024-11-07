@@ -15,7 +15,7 @@
     const url = new URL(window.location.href);
     // 2. 使用URLSearchParams获取参数
     const params = new URLSearchParams(url.search);
-    // 3. 获取特定的参数值
+    // 3. 获取特定的参数值-
     const param1 = params.get('n'); // 返回 'value1'
     const newtime = parseInt(param1) + (60 * 60 * 24 * 2);
     const timestamp = Math.floor(new Date().getTime() / 1000);
